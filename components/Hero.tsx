@@ -3,7 +3,7 @@ import {Button} from "@/components/ui/button";
 
 const Hero = () => {
     return (
-        <div className="p-12 hero-background h-[72vh]">
+        <div className="py-24 px-12 hero-background h-[72vh]">
             <div className="mx-32">
                 <div className="text-white w-full max-w-[800px]">
                     <h1 className="text-5xl font-medium mb-4">A problem <span className="text-[#f14833]">solving</span> platform</h1>
