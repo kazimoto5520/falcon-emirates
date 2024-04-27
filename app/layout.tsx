@@ -3,11 +3,14 @@ import { Inter } from "next/font/google";
 import {Montserrat} from "next/font/google"
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import localFont from "next/font/local";
 
 const inter = Inter({ subsets: ["latin"] });
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  style: ["normal", "italic"]
+const mont = localFont({
+  src: [{
+    path: "../assets/fonts/montserrat.ttf",
+  }],
+  variable: "--font-mont"
 })
 
 export const metadata: Metadata = {
@@ -22,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={`${mont.variable}`}>
         <div className="flex flex-col">
           <Navbar />
           {children}
