@@ -16,3 +16,9 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.blog-background {
+    background-image: url("../assets/img/clouds.jpg");
+    background-position: center;
+    background-size: cover;
+}
