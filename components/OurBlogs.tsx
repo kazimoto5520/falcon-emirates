@@ -7,9 +7,9 @@ const OurBlogs = () => {
     const posts = [
         {
             id: 1,
-            title: "At Mario's Always Fresh Cupcake Ice Cream?",
-            image: "/post1.jpg",
-            description: "Veggies food taste better when cooked, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.",
+            title: "The Evolution of Tractors: From Fields to Future",
+            image: "/blogs/devices.jpeg",
+            description: "Explore the remarkable journey of tractors from humble beginnings to modern marvels shaping the agricultural landscape. This blog post delves into the rich history, technological advancements, and promising future of these indispensable machines.",
             categories: [
                 {
                     id: 1,
@@ -23,9 +23,9 @@ const OurBlogs = () => {
         },
         {
             id: 2,
-            title: "7 Important Lessons I’ve Learned About Using Spices",
-            image: "/post2.jpg",
-            description: "From tall, frosted layer cakes to simple and delicious Bundts, our top-rated chocolate cakes are all here. Grab a glass of milk",
+            title: "Transforming Mo Dewji Bottles: A Sustainable Solution for Dustbins, Life Jackets, and Brooms",
+            image: "/blogs/bottles.jpeg",
+            description: "Embark on a journey of innovation and sustainability as we explore the creative reuse of Mo Dewji bottles. In this blog post, we delve into the ingenious ways these bottles can be repurposed into essential everyday items such as dustbins, life jackets, and brooms.",
             categories: [
                 {
                     id: 1,
@@ -35,9 +35,9 @@ const OurBlogs = () => {
         },
         {
             id: 3,
-            title: "The Top 10 List of Exotic Drinks for This Season",
-            image: "/post3.jpg",
-            description: "From tall, frosted layer cakes to simple and delicious Bundts, our top-rated chocolate cakes are all here. Grab a glass of milk",
+            title: "Augmented Reality: Bridging the Gap Between Virtual and Physical Worlds",
+            image: "/blogs/post.jpeg",
+            description: "Step into a realm where reality is enhanced with digital overlays in this exploration of augmented reality (AR) technology. From immersive gaming experiences to practical applications in education and commerce, AR is reshaping how we interact with the world around us.",
             categories: [
                 {
                     id: 1,
@@ -51,9 +51,9 @@ const OurBlogs = () => {
         },
         {
             id: 4,
-            title: "The Top 10 List of Exotic Drinks for This Season",
-            image: "/post4.jpg",
-            description: "From tall, frosted layer cakes to simple and delicious Bundts, our top-rated chocolate cakes are all here. Grab a glass of milk",
+            title: "The Rise of Quantum Computing: Unlocking the Power of the Unseen",
+            image: "/blogs/post2.jpg",
+            description: "Dive into the forefront of computing with this exploration of quantum technology. From the fundamental principles to real-world applications, this blog post illuminates the revolutionary potential of quantum computing.",
             categories: [
                 {
                     id: 1,
@@ -76,10 +76,12 @@ const OurBlogs = () => {
                 </div>
 
                 <div className="mt-12">
-                    <div className="grid grid-cols-4 gap-8 max-sm:grid-cols-1 max-lg:grid-cols-2">
+                    <div className="grid grid-cols-4 gap-12 max-sm:grid-cols-1 max-lg:grid-cols-2">
                         {posts.map((post) => (
-                        <div key={post.id} className="max-w-sm bg-white rounded overflow-hidden shadow-lg">
-                            <Image className="w-full" width={200} height={200} src={post.image} alt="Card image"/>
+                        <div key={post.id} className="flex flex-col justify-between max-w-full bg-white rounded overflow-hidden shadow-lg">
+                            <div className='w-200 h-200'>
+                                <Image className="w-full h-full object-cover max-h-[300px]" width={1000} height={1000} src={post.image} alt="Card image"/>
+                            </div>
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">{post.title}</div>
                                 <p className="text-gray-700 text-base">{post.description}</p>
