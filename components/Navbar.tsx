@@ -17,7 +17,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="flex space-x-6 font-semibold max-sm:hidden">
-                        <Link href="#" className="text-[#f14833]">
+                        <Link href="#" className="text-main-secondary">
                             Home
                         </Link>
 
