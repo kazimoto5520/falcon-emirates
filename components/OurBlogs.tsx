@@ -71,7 +71,7 @@ const OurBlogs = () => {
         <div className="blog-background py-24 px-12 max-sm:px-4 max-sm:py-8 max-lg:py-12 max-lg:px-8 max-sm:mt-12">
             <div className="mx-auto max-sm:mx-0 max-lg:mx-16">
                 <div className="flex flex-col justify-center items-center space-y-4">
-                    <h1 className="text-3xl uppercase max-sm:text-xl max-lg:text-2xl">Latest <span className="text-main-primary">Posts</span> From Our Blog</h1>
+                    <h1 className="text-3xl text-center uppercase max-sm:text-xl max-lg:text-2xl">Latest <span className="text-main-primary">Posts</span> From Our Blog</h1>
                     <div className="w-32 h-[0.15rem] bg-red-500 max-sm:w-16 max-lg:w-24"></div>
                 </div>
 

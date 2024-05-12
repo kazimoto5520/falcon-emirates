@@ -9,7 +9,7 @@ const Navbar = () => {
             <NavIcons/>
 
             <div className="bg-[#303030] text-[#fafafa] p-8 max-sm:p-4">
-                <div className="mx-32 flex justify-between items-center max-sm:mx-0 max-lg:mx-16">
+                <div className="mx-auto flex justify-between items-center max-sm:mx-0 max-lg:mx-16">
                     <div className="uppercase font-bold max-sm:text-sm">
                         <Link href="/">
                             <h1>Falcon Emirates</h1>

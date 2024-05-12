@@ -5,7 +5,7 @@ import {Separator} from "@/components/ui/separator";
 const OurCoreValues = () => {
     return (
         <div className="bg-white py-24 px-12 max-sm:px-4 max-sm:py-8 max-lg:py-12 max-lg:px-8">
-            <div className="mx-32 max-sm:mx-0 max-lg:mx-16">
+            <div className="mx-auto max-sm:mx-0 max-lg:mx-16">
                 <div className="grid grid-cols-3 gap-12 max-sm:grid-cols-1 max-sm:gap-8">
                     <div>
                         <div className="flex flex-col justify-center items-center">
