@@ -3,7 +3,7 @@ import {Button} from "@/components/ui/button";
 
 const Hero = () => {
     return (
-        <div className="py-24 px-12 hero-background h-[72vh] max-sm:py-8 max-sm:px-4">
+        <div className="py-24 px-12 hero-background h-[72vh] max-sm:py-8 max-sm:px-4 max-sm:h-auto">
             <div className="mx-auto max-sm:mx-0 max-lg:mx-16">
                 <div className="text-white w-full max-w-full max-sm:max-w-full max-lg:max-w-full">
                     <h1 className="text-5xl text-center font-medium mb-4 max-sm:text-3xl max-sm:text-start">A problem <span className="text-main-primary">solving</span> platform</h1>
